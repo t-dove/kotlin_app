@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524436945746",
+    "project_id": "anonchat-fc007",
+    "storage_bucket": "anonchat-fc007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524436945746:android:9a89f877ba601e6b81988b",
+        "android_client_info": {
+          "package_name": "com.example.anonymous_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOoFOkDr2L4i04gisvLooSYO8t-pakA0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

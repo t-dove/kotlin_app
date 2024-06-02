@@ -1,0 +1,30 @@
+@startuml
+
+class AppDatabase {
+    - INSTANCE: AppDatabase
+    - userAuthDao: UserAuthDao
+    + getDatabase(context: Context): AppDatabase
+    + userAuthDao(): UserAuthDao
+}
+
+class UserAuthDao {
+    + insert(userAuth: UserAuth)
+    + getUserAuth(): UserAuth?
+}
+
+class UserAuth {
+    - id: Int
+    - access_token: String
+    + getId(): Int
+    + getAccessToken(): String
+}
+
+class AnonChatAPI {
+    - BASE_URL: String
+    + sendPostRequest(methodName: String, data: Map<String, CharSequence>): String
+}
+
+AppDatabase -- UserAuthDao : owns
+UserAuthDao -- UserAuth : interacts
+
+@enduml

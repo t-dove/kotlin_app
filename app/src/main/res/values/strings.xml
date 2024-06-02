@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aнонимный чат</string>
+    <string name="title_activity_main">Авторизация</string>
+    <string name="welcome_text">Добро пожаловать!</string>
+    <string name="welcome_full_text">Пожалуйста, введите адрес электронной почты\nВы будете автоматически зарегистрированы, если впервые входите в приложение</string>
+    <string name="email_text">Почта</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="name_text">Ваше имя</string>
+    <string name="sex_text">Пол</string>
+    <string name="age_text">Возраст</string>
+    <string name="interlocutor_text">Желаемый собеседник:</string>
+    <string name="search_text">Поиск</string>
+    <string name="exit_text">Выйти</string>
+    <string name="msg_placeholder_text">Введите сообщение...</string>
+</resources>
